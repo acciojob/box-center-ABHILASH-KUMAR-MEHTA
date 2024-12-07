@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+ body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; /* Light gray for contrast */
+        }
+
+        .center-box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .center-box p {
+            color: purple;
+            font-size: 16px;
+            text-align: center;
+            margin: 0;
+            position: absolute;
+        }
